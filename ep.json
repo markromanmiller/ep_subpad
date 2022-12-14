@@ -1,0 +1,14 @@
+{
+	"parts" : [
+		{
+			"name": "subpad",
+			"hooks":{
+				"expressCreateServer" : "ep_subpad/subpad:registerRoute",
+				"expressConfigure" : "ep_subpad/subpad",
+				"eejsBlock_editorContainerBox":"ep_subpad/subpad",
+				"eejsBlock_scripts":"ep_subpad/subpad",
+				"eejsBlock_styles":"ep_subpad/subpad"
+			}
+		}
+	]
+}

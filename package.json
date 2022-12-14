@@ -1,0 +1,8 @@
+{
+	"name": "ep_subpad",
+	"version": "0.0.2",
+	"description": "Structure pads within a hierarchy, inspired by Notion.",
+	"engines": {
+		"node": "*"
+	}
+}
